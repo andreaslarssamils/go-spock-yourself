@@ -11,3 +11,11 @@ The rules of "Rock, Paper, Scissors, Lizard, Spock" are as follows:
 - Rock crushes scissors, crushes lizard.
 - Lizaed poisons spock, eats paper.
 - Spock smashes scissors, vaporizes rock.
+
+## Features
+
+## Testing
+
+## Deployment
+
+## Credits
