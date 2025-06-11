@@ -2,4 +2,58 @@ body {
   font-family: 'Annie Use Your Telescope', cursive;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+  background-color: #2e2e2e;
+  color: #f0f0f0;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* Buttons */
+
+.player-choices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.player-choices button {
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#rock {
+  background: #ff0040;
+}
+
+#paper {
+  background: #ff8000;
+}
+
+#scissor {
+  background: #ffff00;
+}
+
+#lizard {
+  background: #00ff00;
+}
+
+#spock {
+  background: #00ffff;
+}
+
+section i {
+  color: black;
 }
