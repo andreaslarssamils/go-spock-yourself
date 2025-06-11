@@ -40,6 +40,9 @@ The game has been tested in various browsers and devices to ensure compatibility
 
 I confirmed that the game is fully functional and that the game logic is implemented correctly, and the user interface is intuitive and easy to use.
 
+Page analytics:
+![Page Analytics](/assets/images/page-analytics.png)
+
 ## Deployment
 
 I deployed the page on GitHub pages via the following procedure:
