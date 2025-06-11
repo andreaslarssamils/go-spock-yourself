@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   for (let i = 0; i < playerButtons.length; i++) {
     playerButtons[i].addEventListener('click', function (e) {
-      playerChoice = e.target.id; // Gets the ID of the clicked button
+      playerChoice = e.currentTarget.id; // Gets the ID of the clicked button
       console.log('Player Choice: ', playerChoice);
       generateCpuChoice(); // Calls the function to generate CPU choice
       getResult();
