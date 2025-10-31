@@ -1,84 +1,96 @@
+<!-- prettier-ignore -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <!-- prettier-ignore -->
+    <meta charset="UTF-8" >
+    <!-- prettier-ignore -->
     <meta
       name="description"
       content="Binge-play the classic game of Rock, Paper, Scissors, Lizard, Spock with a twist! Choose your move and see if you can outsmart the computer."
-    />
+    >
+    <!-- prettier-ignore -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
-    />
+    >
     <script
       src="https://kit.fontawesome.com/97d4a9e111.js"
       crossorigin="anonymous"
     ></script>
+    <!-- prettier-ignore -->
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
-    />
+    >
+    <!-- prettier-ignore -->
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
-    />
+    >
+    <!-- prettier-ignore -->
     <link
       rel="preconnect"
       href="https://fonts.gstatic.com"
       crossorigin
-    />
+    >
+    <!-- prettier-ignore -->
     <link
       href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap"
       rel="stylesheet"
-    />
+    >
     <title>🖖 Go Spock Yourself!</title>
+    <!-- prettier-ignore -->
     <link
       rel="stylesheet"
       href="assets/css/style.css"
-    />
+    >
   </head>
   <body>
     <h1>Go Spock Yourself</h1>
     <p>Welcome to the Go Spock Yourself game!</p>
     <section class="player-choices">
-      <button
-        id="rock"
-        aria-label="rock"
-      >
-        <i class="fa-solid fa-hand-back-fist"></i>
-      </button>
-      <button
-        id="paper"
-        aria-label="paper"
-      >
-        <i class="fa-solid fa-hand"></i>
-      </button>
-      <button
-        id="scissor"
-        aria-label="scissor"
-      >
-        <i class="fa-solid fa-hand-scissors"></i>
-      </button>
-      <button
-        id="lizard"
-        aria-label="lizard"
-      >
-        <i class="fa-solid fa-hand-lizard"></i>
-      </button>
-      <button
-        id="spock"
-        aria-label="spock"
-      >
-        <i class="fa-solid fa-hand-spock"></i>
-      </button>
+      <h3>Choose your move:</h3>
+      <div>
+        <button
+          id="rock"
+          aria-label="rock"
+        >
+          <i class="fa-solid fa-hand-back-fist"></i>
+        </button>
+        <button
+          id="paper"
+          aria-label="paper"
+        >
+          <i class="fa-solid fa-hand"></i>
+        </button>
+        <button
+          id="scissor"
+          aria-label="scissor"
+        >
+          <i class="fa-solid fa-hand-scissors"></i>
+        </button>
+        <button
+          id="lizard"
+          aria-label="lizard"
+        >
+          <i class="fa-solid fa-hand-lizard"></i>
+        </button>
+        <button
+          id="spock"
+          aria-label="spock"
+        >
+          <i class="fa-solid fa-hand-spock"></i>
+        </button>
+      </div>
     </section>
 
     <p id="result">Choose Wisely</p>
     <p>CPU Choice <span id="cpu-choice">?</span></p>
 
     <section class="score-board">
-      <p>Your points: <span id="player-score">0</span></p>
-      <p>Computer points: <span id="cpu-score">0</span></p>
+      <h3>Your points: <span id="player-score">0</span></h3>
+      <h3>Computer points: <span id="cpu-score">0</span></h3>
     </section>
     <script src="assets/js/main.js"></script>
   </body>

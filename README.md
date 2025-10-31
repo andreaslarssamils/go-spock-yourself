@@ -43,6 +43,18 @@ I confirmed that the game is fully functional and that the game logic is impleme
 Page analytics:
 ![Page Analytics](/assets/images/page-analytics.png)
 
+| **User Story**                                                        | **Feature Tested**                          | **Testing Method**                  | **Expected Result**                                      | **Actual Result**     |
+| --------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------- | -------------------------------------------------------- | --------------------- |
+| As a user, I want to quickly play a fun game so that I can pass time. | Game buttons and random computer selection. | Clicked each choice multiple times. | Displays result immediately with random computer choice. | Works as intended.    |
+| As a user, I want to know when I win or lose.                         | Game result display.                        | Played several rounds.              | Displays win/loss/tie messages accurately.               | Messages are correct. |
+
+## Code Validation
+
+| **Tool**                                                  | **File Tested** | **Result**          |
+| --------------------------------------------------------- | --------------- | ------------------- |
+| ![W3C HTML Validator](/assets/images/validation-html.png) | index.html      | No errors found     |
+| ![W3C CSS Validator](/assets/images/validation-css.png)   | style.css       | Passed successfully |
+
 ## Deployment
 
 I deployed the page on GitHub pages via the following procedure:
